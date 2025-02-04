@@ -16,7 +16,7 @@ type User struct {
 }
 
 func GetUser() []User {
-	resp, err := http.Get("https://my-json-server.typicode.com/uzzajlcse/simple_server_with_json_placeholder/users")
+	resp, err := http.Get("https://my-json-server.typicode.com/uzzalcse/simple_server_with_json_placeholder/users")
 	if err != nil {
 		log.Printf("Failed to make HTTP request: %v", err)
 		return []User{}
