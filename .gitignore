@@ -1,0 +1,16 @@
+coverage.out
+coverage.html
+coverage.xml
+.env
+tmp/
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+.idea/
+.vscode/
+vendor/
